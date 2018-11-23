@@ -1,3 +1,19 @@
+# == Schema Information
+#
+# Table name: places
+#
+#  id              :integer          not null, primary key
+#  country         :string
+#  city            :string
+#  price_per_night :decimal(, )
+#  bedrooms        :integer
+#  bathrooms       :integer
+#  guests_capacity :integer
+#  owner_id        :integer
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
