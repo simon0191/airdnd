@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <ul>
+        <% @places.each do |place| %>
+          <li>
+            <h3><%= place.name %></h3>
+            <p><%= place.description %></p>
+            <p>Dueño: <%= place.owner.email %></p>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

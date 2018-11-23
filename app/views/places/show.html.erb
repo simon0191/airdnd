@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h1>Lugar <%= @place.name %></h1>
+      <p>
+        <%= @place.description %>
+      </p>
+      <br>
+      <%= link_to "Editar", edit_place_path(@place) %>
+    </div>
+  </div>
+</div> 
